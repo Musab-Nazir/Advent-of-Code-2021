@@ -2,7 +2,7 @@
   (:require [clojure.edn :as edn]))
 
 ;; Load data
-(def sonar-input (edn/read-string (slurp "./resources/sonar_input.edn")))
+(def sonar-input (edn/read-string (slurp "./resources/day1_input.edn")))
 
 ;; Counter
 (def c (atom 0))
